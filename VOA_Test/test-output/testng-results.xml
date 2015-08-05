@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="15482" started-at="2015-08-05T07:57:07Z" finished-at="2015-08-05T07:57:23Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="15482" started-at="2015-08-05T07:57:07Z" finished-at="2015-08-05T07:57:23Z">
+      <class name="voa_functional.taxCalcTest">
+        <test-method status="PASS" signature="CalcTax(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:voa_functional.taxCalcTest@5a01ccaa]" name="CalcTax" duration-ms="10920" started-at="2015-08-05T08:57:08Z" data-provider="getdata" finished-at="2015-08-05T08:57:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2015/2016]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[35000.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10000.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[500.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[200.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[4.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[It appears that you may have paid too much tax. You may be due for a refund of £5,178.00]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CalcTax -->
+        <test-method status="PASS" signature="CalcTax(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:voa_functional.taxCalcTest@5a01ccaa]" name="CalcTax" duration-ms="3844" started-at="2015-08-05T08:57:19Z" data-provider="getdata" finished-at="2015-08-05T08:57:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2015/2016]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[35000.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ABC]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[500.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[200.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[4.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[You must enter whole pounds only, not more than £99999]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CalcTax -->
+      </class> <!-- voa_functional.taxCalcTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
